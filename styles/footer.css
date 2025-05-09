@@ -1,0 +1,22 @@
+footer {
+	height: 80px;
+	background-color: rgb(223, 249, 249);
+	display: flex;
+	justify-content: center;
+	gap: 30px;
+	align-items: center;
+	border-top: 1px solid gray;
+}
+.contact-us {
+	font-size: 20px;
+	font-weight: bold;
+}
+.socials img {
+	height: 20px;
+	cursor: pointer;
+}
+.email {
+	margin: 0;
+	margin-bottom: 8px;
+	cursor: pointer;
+}

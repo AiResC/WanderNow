@@ -1,0 +1,67 @@
+hr {
+	width: 50%;
+}
+
+/* description and slogan */
+.description-slogan {
+	margin-top: 40px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.description {
+	font-size: 24px;
+}
+.slogan {
+	font-size: 40px;
+	font-style: italic;
+	font-weight: lighter;
+}
+
+/* destination cards */
+.destination-cards {
+	margin-top: 80px;
+	margin-bottom: 100px;
+	display: flex;
+	flex-direction: row;
+	height: 500px;
+	justify-content: center;
+	gap: 20px;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	border: 1px gray solid;
+	width: 300px;
+	border-radius: 30px;
+	background-color: white;
+	box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.3);
+	transition: transform 0.3s ease, box-shadow 0.3s ease, margin 0.3s ease;
+	margin: 0;
+}
+
+.dest-image {
+	border-radius: 30px 30px 0 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.dest-info {
+	height: 300px;
+	padding: 10px;
+}
+
+.dest-place {
+	margin: 0;
+	font-size: 25px;
+	border-bottom: 1px solid gray;
+	padding-bottom: 8px;
+}
+
+.card:hover {
+	transform: scale(1.22) translate(0, -2px);
+	box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.4);
+	margin: 30px;
+}

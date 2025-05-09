@@ -1,0 +1,19 @@
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 80px;
+	background-color: rgb(25, 134, 134);
+	display: flex;
+	justify-content: center;
+	box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.3);
+	align-items: center;
+	border-bottom: 1px solid gray;
+}
+
+.logo {
+	font-size: 30px;
+	font-weight: bold;
+	color: white;
+}
